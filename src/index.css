@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myIntro {
+  background-image: url("./../public/images/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.options-box {
+  background-image: url("./../public/images/oulines-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+}
+.hack-nav {
+  transition: top 2s ease-in-out;
+}
